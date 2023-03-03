@@ -41,4 +41,5 @@ Changed line 7 from 'bootstrap.min.css' to 'bootstrap.css'
 changed line 39 from 'text-muted' to 'text-white-50 bg-primary'
 Removed line 23 'text-dark'
 
-
+13:08
+Removed all 'text-dark' references in _Layout.cshtml

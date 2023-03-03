@@ -7,7 +7,7 @@ HTTPS enabled, individual account authentication...no Razor
 Reviewed the Areas Folder, Controller, Model, View...
 
 Time: 15:06 - In Startup.cs on Line 33
-removed the "options" for default identity: services.AddDefaultIdentity<IndentityUser>(options: )
+removed the "options" for default identity: services.AddDefaultIdentity<IndentityUser>(options => options.SignIn.RequireConfirmedAccount = true) -> remove 'options => options.SignIn.RequireConfirmedAccount = true'
 
 Time: 15:10
 Cleaned code w/ right click on main project
@@ -27,3 +27,6 @@ Startup.cs on line 65 added comment showing it's the default route pattern
 Time: 15:17
 Create repository 'BraydensBookStore'
 options => options.SignIn.RequireConfirmedAccount = true
+
+2023-03-03
+

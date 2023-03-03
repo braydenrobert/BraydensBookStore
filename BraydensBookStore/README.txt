@@ -31,3 +31,14 @@ options => options.SignIn.RequireConfirmedAccount = true
 2023-03-03
 13:25
 Created the .md file and pulled file.
+
+13:43
+Replaced bootstrap.css file with different code from bootswatch to get current appearance
+
+
+Changed 3 the following lines in the _Layout.cshtml:
+Changed line 7 from 'bootstrap.min.css' to 'bootstrap.css'
+changed line 39 from 'text-muted' to 'text-white-50 bg-primary'
+Removed line 23 'text-dark'
+
+

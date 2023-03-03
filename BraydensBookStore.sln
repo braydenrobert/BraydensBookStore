@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BraydensBookStore", "BraydensBookStore\BraydensBookStore.csproj", "{FF074638-C416-48DB-A82C-E2062F1B7621}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4A65707C-D28D-4AC9-9D84-834BEFCB4167}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF074638-C416-48DB-A82C-E2062F1B7621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF074638-C416-48DB-A82C-E2062F1B7621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF074638-C416-48DB-A82C-E2062F1B7621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF074638-C416-48DB-A82C-E2062F1B7621}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F282A55C-7729-4875-A41C-5C9A2F13AB6C}
+	EndGlobalSection
+EndGlobal

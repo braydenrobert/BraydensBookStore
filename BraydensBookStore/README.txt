@@ -90,5 +90,16 @@ Modified the properties of the class
 Added a project reference to main project
 Added project reference to Models and Utility from DataAccess
 
+17:45
+Added Customers area to Areas
+Changed the routes in Startup.cs to new Area
+Edited HomeController.cs to define controller in Customers Area
+Moved Views to Customers Area
+
+17:50
+Changed _ViewStart to display new _Layout location in Customers Area
+Copied ViewImport and ViewStart to Customers Area
+Modified new _ViewStart to reflect new path
+
 
 

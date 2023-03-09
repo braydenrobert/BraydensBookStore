@@ -52,5 +52,9 @@ added new site.css config for different style from bootswatch.com
 22:45
 Added script runs to _Layout.cshtml from JQuery UI, DataTables, SweetAlert, FontAwesome and Toastr
 
+22:46
+Test Run application to check for errors.
+Added dropdown menu to _Layout.cshtml
+Changed dropdown menu name to Content Management
 
 

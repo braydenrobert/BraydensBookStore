@@ -49,9 +49,6 @@ Removed all 'text-dark' references in _Layout.cshtml
 Added new bootstrap.css from bootswatch.com
 added new site.css config for different style from bootswatch.com
 
-22:45
-Added script runs to _Layout.cshtml from JQuery UI, DataTables, SweetAlert, FontAwesome and Toastr
-
 22:46
 Test Run application to check for errors.
 Added dropdown menu to _Layout.cshtml
@@ -59,5 +56,8 @@ Changed dropdown menu name to Content Management
 
 23:12
 Added EntityFrameworkCore.Relational
+
+14:28
+Added script runs to _Layout.cshtml from JQuery UI, DataTables, SweetAlert, FontAwesome and Toastr
 
 

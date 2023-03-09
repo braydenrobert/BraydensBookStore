@@ -60,4 +60,10 @@ Added EntityFrameworkCore.Relational
 14:28
 Added script runs to _Layout.cshtml from JQuery UI, DataTables, SweetAlert, FontAwesome and Toastr
 
+15:12
+Added three New Projects(.NET Core class library)
+Copied the 'data' folder to .DataAccess
+Deleted original 'data' folder
+Deleted Migrations
+
 

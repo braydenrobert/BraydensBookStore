@@ -1,4 +1,4 @@
-//using BraydensBookStore.DataAccess;
+//using BraydensBookStore.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -37,6 +37,7 @@ namespace BraydensBookStore
             services.AddRazorPages();
         }
         */
+
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

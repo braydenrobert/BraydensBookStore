@@ -66,4 +66,9 @@ Copied the 'data' folder to .DataAccess
 Deleted original 'data' folder
 Deleted Migrations
 
+15:50
+Installed EntityFrameworkCore
+Modified namespace in ApplicationDbContext - Data from BraydensBooks.DataAccess
+Deleted all default Class1.cs files
+
 

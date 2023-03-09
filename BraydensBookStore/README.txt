@@ -57,4 +57,7 @@ Test Run application to check for errors.
 Added dropdown menu to _Layout.cshtml
 Changed dropdown menu name to Content Management
 
+23:12
+Added EntityFrameworkCore.Relational
+
 

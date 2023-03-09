@@ -67,8 +67,22 @@ Deleted original 'data' folder
 Deleted Migrations
 
 15:50
-Installed EntityFrameworkCore
+Installed Identity.EntityFrameworkCore
 Modified namespace in ApplicationDbContext - Data from BraydensBooks.DataAccess
 Deleted all default Class1.cs files
+
+16:56
+Moved Models into BraydensBooks.Models
+Modified Error.cshtml in Views
+Renamed Models folder to ViewModels
+Changed ErrorViewModels.cs namespace to .Models.ViewModels
+Tested Project
+
+17:01
+Ran application to check for errors
+Fixed all using errors/references
+Corrected all Error references w/ ErrorViewModel to .Models.ViewModels
+Tested for error check(No Errors)
+
 
 

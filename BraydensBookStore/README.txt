@@ -43,3 +43,14 @@ Removed line 23 'text-dark'
 
 13:08
 Removed all 'text-dark' references in _Layout.cshtml
+
+2023-03-07
+22:41
+Added new bootstrap.css from bootswatch.com
+added new site.css config for different style from bootswatch.com
+
+22:45
+Added script runs to _Layout.cshtml from JQuery UI, DataTables, SweetAlert, FontAwesome and Toastr
+
+
+

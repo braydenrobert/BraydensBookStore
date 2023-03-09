@@ -17,6 +17,7 @@
   <ItemGroup>
     <ProjectReference Include="..\BraydensBooks.DataAccess\BraydensBooks.DataAccess.csproj" />
     <ProjectReference Include="..\BraydensBooks.Models\BraydensBooks.Models.csproj" />
+    <ProjectReference Include="..\BraydensBooks.Utility\BraydensBooks.Utility.csproj" />
   </ItemGroup>
 
 </Project>

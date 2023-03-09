@@ -84,5 +84,11 @@ Fixed all using errors/references
 Corrected all Error references w/ ErrorViewModel to .Models.ViewModels
 Tested for error check(No Errors)
 
+17:09
+Added a static class called SD.cs in Utility Project
+Modified the properties of the class
+Added a project reference to main project
+Added project reference to Models and Utility from DataAccess
+
 
 

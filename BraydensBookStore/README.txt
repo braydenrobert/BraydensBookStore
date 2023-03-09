@@ -101,5 +101,13 @@ Changed _ViewStart to display new _Layout location in Customers Area
 Copied ViewImport and ViewStart to Customers Area
 Modified new _ViewStart to reflect new path
 
+17:54
+Added New area named Admin
+Added necassary view files to Admin Area
+Deleted Controller Folder
+Deleted Data and Models folder from Admin Area
+Updated _Layout.cshtml to make footer fixed to bottom of screen
+
+
 
 

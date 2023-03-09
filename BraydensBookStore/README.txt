@@ -60,7 +60,4 @@ Added EntityFrameworkCore.Relational
 14:28
 Added script runs to _Layout.cshtml from JQuery UI, DataTables, SweetAlert, FontAwesome and Toastr
 
-14:41
-Fixed Script errors 'CSS' & 'JS' not commented out
-
 

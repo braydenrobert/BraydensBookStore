@@ -108,6 +108,9 @@ Deleted Controller Folder
 Deleted Data and Models folder from Admin Area
 Updated _Layout.cshtml to make footer fixed to bottom of screen
 
+2023-03-10
+Bootstrap Picked was https://bootswatch.com/quartz/
+
 
 
 

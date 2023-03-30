@@ -112,6 +112,11 @@ Updated _Layout.cshtml to make footer fixed to bottom of screen
 15:07
 Bootstrap Picked was https://bootswatch.com/quartz/
 
+2023-03-30
+05:15
+Added Migration to BraydensBooks.DataAccess
+
+
 
 
 

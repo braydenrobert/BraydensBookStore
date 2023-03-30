@@ -1,9 +1,9 @@
-﻿
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using BraydensBooks.Models;
 
 namespace BraydensBookStore.DataAcccess.Data
 {
@@ -13,5 +13,7 @@ namespace BraydensBookStore.DataAcccess.Data
             : base(options)
         {
         }
+
+        public DbSet<Category> Categories { get; set; }
     }
 }

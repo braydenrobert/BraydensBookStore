@@ -1,3 +1,7 @@
+------------
+-- Part 1 --
+____________
+
 Date: 2023-03-02
 
 Time: 15:05
@@ -112,9 +116,22 @@ Updated _Layout.cshtml to make footer fixed to bottom of screen
 15:07
 Bootstrap Picked was https://bootswatch.com/quartz/
 
+------------
+-- Part 2 --
+____________
+
 2023-03-30
 05:15
 Added Migration to BraydensBooks.DataAccess
+Updated database with new migration
+Updated ReadMe
+
+05:51
+Added ApplicationDbContext.cs with 'public DbSet<Category> Categories { get; set; }'
+Created class file in BraydensBooks.Models
+Added category table to DB
+Added new class file with all information from Models Category
+Ran test to make sure program worked
 
 
 

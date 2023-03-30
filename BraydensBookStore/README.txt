@@ -133,6 +133,18 @@ Added category table to DB
 Added new class file with all information from Models Category
 Ran test to make sure program worked
 
+17:55
+Added Repository Folder
+Added IRepository Folder into Repository folder
+Added IRepository.cs file into IRepository folder
+Added code to IRepository.cs File
+Added Repository.cs file into Repository folder
+Added code to Repository.cs File
+Added CategoryRepository.cs file into Repository folder
+Added code to ICategoryRepository.cs File
+Added ICategoryRepository.cs file into IRepository folder
+
+
 
 
 

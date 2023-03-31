@@ -176,6 +176,16 @@ Fixed _Layout.cshtml in Areas/Views/Shared by fixing location of _Layout.cshtml
 Added '<a class="dropdown-item" asp-area="Admin" asp-controller="Category" asp-action="Index">Category</a>' to _Layout.cshtml dropdown menu in Customers/Views/Shared/_Layout.cshtml
 Updated Readme.txt
 
+6:13
+Added Upsert.cshtml with online code from course
+Added category.js file from course files
+Updated CategoryController.cs with provided code
+Added _CreateAndBackToList.cshtml with provided code
+Added _EditAndBackToList.cshtml with provided code
+Updated _Layout.cshtml with script code
+Deleted CategoryRepository.cs code '_db.SaveChanges();'
+Updated Readme.txt
+
 
 
 

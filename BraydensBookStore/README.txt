@@ -123,7 +123,7 @@ ____________
 2023-03-30
 05:15
 Added Migration to BraydensBooks.DataAccess
-Updated database with new migration
+Updated database with new migration for application database
 Updated ReadMe
 
 05:51
@@ -155,6 +155,17 @@ Added content to IUnitOfWork.cs file
 Added UnitOfWork.cs file into Repository folder
 Added content to UnitOfWork.cs file
 Updated Startup.cs with 'services.AddScoped<IUnitOfWork, UnitOfWork>();'
+
+
+2023-03-31
+04:20
+Updated Repository.cs code with code displayed from course code
+Added Controller for admin called CategoryController.cs (Uses IUnitofWork.cs to retrieve all categories)
+Added folder named Category under Admin/Views
+Added Index file to display categories with default layout
+Deleted old index to display new index
+Updated _Layout with Category display for dropdown menu
+
 
 
 

@@ -72,10 +72,6 @@ namespace BraydensBookStore
                     name: "Customers",
                     pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}",
                     defaults: new { area = "Customers" });
-
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }

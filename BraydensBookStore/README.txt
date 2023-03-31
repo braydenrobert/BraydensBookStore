@@ -124,7 +124,7 @@ ____________
 05:15
 Added Migration to BraydensBooks.DataAccess
 Updated database with new migration for application database
-Updated ReadMe
+Updated Readme.txt
 
 05:51
 Added ApplicationDbContext.cs with 'public DbSet<Category> Categories { get; set; }'
@@ -132,6 +132,7 @@ Created class file in BraydensBooks.Models
 Added category table to DB
 Added new class file with all information from Models Category
 Ran test to make sure program worked
+Updated Readme.txt
 
 17:55
 Added Repository Folder
@@ -144,6 +145,7 @@ Added CategoryRepository.cs file into Repository folder
 Added code to ICategoryRepository.cs File
 Added ICategoryRepository.cs file into IRepository folder
 Added code to ICategoryRepository.cs
+Updated Readme.txt
 
 18:26
 Added ISP_Call.cs file into IRepository folder
@@ -155,6 +157,7 @@ Added content to IUnitOfWork.cs file
 Added UnitOfWork.cs file into Repository folder
 Added content to UnitOfWork.cs file
 Updated Startup.cs with 'services.AddScoped<IUnitOfWork, UnitOfWork>();'
+Updated Readme.txt
 
 
 2023-03-31
@@ -165,6 +168,13 @@ Added folder named Category under Admin/Views
 Added Index file to display categories with default layout
 Deleted old index to display new index
 Updated _Layout with Category display for dropdown menu
+Updated Readme.txt
+
+04:52
+Added back Index.cshtml to Admin/Views/Home
+Fixed _Layout.cshtml in Areas/Views/Shared by fixing location of _Layout.cshtml
+Added '<a class="dropdown-item" asp-area="Admin" asp-controller="Category" asp-action="Index">Category</a>' to _Layout.cshtml dropdown menu in Customers/Views/Shared/_Layout.cshtml
+Updated Readme.txt
 
 
 

@@ -135,6 +135,8 @@ Ran test to make sure program worked
 Updated Readme.txt
 
 17:55
+AddBookTable.cs Database added
+AddCategoryToDb.cs Database added
 Added Repository Folder
 Added IRepository Folder into Repository folder
 Added IRepository.cs file into IRepository folder

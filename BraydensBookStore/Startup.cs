@@ -12,6 +12,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BraydensBookStore.DataAcccess.Data;
+using BraydensBooks.DataAccess.Respository.IRepository;
+using BraydensBooks.DataAccess.Respository;
 
 namespace BraydensBookStore
 {
@@ -30,8 +32,11 @@ namespace BraydensBookStore
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>() // //removed 'options => options.SignIn.RequireConfirmedAccount = true'
+
+            // //removed 'options => options.SignIn.RequireConfirmedAccount = true'
+            services.AddDefaultIdentity<IdentityUser>() 
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
             services.AddRazorPages();
         }

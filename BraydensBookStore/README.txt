@@ -143,6 +143,20 @@ Added code to Repository.cs File
 Added CategoryRepository.cs file into Repository folder
 Added code to ICategoryRepository.cs File
 Added ICategoryRepository.cs file into IRepository folder
+Added code to ICategoryRepository.cs
+
+18:26
+Added ISP_Call.cs file into IRepository folder
+Added content to ISP_Call.cs file
+Added SP_Call.cs file into Repository folder
+Added content to SP_Call.cs file
+Added IUnitOfWork.cs file into IRepository folder
+Added content to IUnitOfWork.cs file
+Added UnitOfWork.cs file into Repository folder
+Added content to UnitOfWork.cs file
+Updated Startup.cs with 'services.AddScoped<IUnitOfWork, UnitOfWork>();'
+
+
 
 
 

@@ -303,7 +303,7 @@ public class CoverTypeController : Controller
 }
 
 --IndexCoverType----------
-@model List<BraydensBooks.Models.CoverTypes> 
+@model List<BraydensBooks.Models.CoverType> 
 
 @{
     ViewBag.Title = "Cover Types";
@@ -348,7 +348,7 @@ public class CoverTypeController : Controller
 }
 
 ----Upsert CoverType-------
-@model YourApplication.Models.CoverType // Update with your actual model namespace
+@model BraydensBooks.Models.CoverType // Update with your actual model namespace
 
 @{
     ViewBag.Title = "Cover Type";

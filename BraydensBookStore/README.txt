@@ -190,6 +190,10 @@ Updated Readme.txt
 20230330091405 - Migration of AddBookTable
 20230330105213 - Migration of AddCategoryToDb.cs
 
+------------
+-- Part 3 --
+____________
+
 2023-04-13
 21:43
 Updated category.js with following delete code from provided website code.

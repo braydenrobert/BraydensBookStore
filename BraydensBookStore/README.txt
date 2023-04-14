@@ -178,7 +178,7 @@ Fixed _Layout.cshtml in Areas/Views/Shared by fixing location of _Layout.cshtml
 Added '<a class="dropdown-item" asp-area="Admin" asp-controller="Category" asp-action="Index">Category</a>' to _Layout.cshtml dropdown menu in Customers/Views/Shared/_Layout.cshtml
 Updated Readme.txt
 
-6:13
+16:13
 Added Upsert.cshtml with online code from course
 Added category.js file from course files
 Updated CategoryController.cs with provided code
@@ -191,6 +191,7 @@ Updated Readme.txt
 20230330105213 - Migration of AddCategoryToDb.cs
 
 2023-04-13
+21:43
 Updated category.js with following delete code from provided website code.
 
 

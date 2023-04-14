@@ -37,6 +37,7 @@ namespace BraydensBookStore
             services.AddDefaultIdentity<IdentityUser>() 
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<ICoverTypeRepository, CoverTypeRepository>();
             services.AddControllersWithViews();
             services.AddRazorPages();
         }

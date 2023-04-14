@@ -200,6 +200,10 @@ Added Cover CoverTypeRepository Class
 Added ICoverTypeRepository Interface
 Added CoverType to UnitOfWork and IUnitofWork
 
+22:41
+Added code to CoverTypeRepository & ICoverTypeRepository
+****** Need to fix migration error ******
+
 
 
 

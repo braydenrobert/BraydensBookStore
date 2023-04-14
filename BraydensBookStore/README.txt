@@ -194,6 +194,12 @@ Updated Readme.txt
 21:43
 Updated category.js with following delete code from provided website code.
 
+22:28
+Added CoverType.cs Model with ID and Name
+Added Cover CoverTypeRepository Class
+Added ICoverTypeRepository Interface
+Added CoverType to UnitOfWork and IUnitofWork
+
 
 
 

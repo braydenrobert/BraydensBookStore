@@ -1,4 +1,5 @@
 ﻿using BraydensBooks.DataAccess.Respository.IRepository;
+using BraydensBooks.Models;
 using BraydensBookStore.DataAcccess.Data;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -10,6 +11,7 @@ namespace BraydensBooks.DataAccess.Respository
     public class UnitOfWork : IUnitOfWork
     {
         private readonly ApplicationDbContext _db;
+        public ICoverTypeRepository CoverTypes { get; }
         public ICategoryRepository Category { get; private set; }
         public ISP_Call SP_Call { get; private set; }
 
@@ -18,6 +20,7 @@ namespace BraydensBooks.DataAccess.Respository
             _db = db;
             Category = new CategoryRepository(_db);
             SP_Call = new SP_Call(_db.Database.GetDbConnection().ConnectionString);
+            CoverTypes = new CoverTypeRepository(_db);
         }
 
         public void Dispose()

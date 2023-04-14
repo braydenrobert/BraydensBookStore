@@ -7,6 +7,8 @@ namespace BraydensBooks.DataAccess.Respository.IRepository
     {
         ICategoryRepository Category { get; }
 
+        ICoverTypeRepository CoverTypes { get; }
+
         ISP_Call SP_Call { get; }
 
         void Save();

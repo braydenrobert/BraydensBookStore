@@ -187,6 +187,11 @@ Added _EditAndBackToList.cshtml with provided code
 Updated _Layout.cshtml with script code
 Deleted CategoryRepository.cs code '_db.SaveChanges();'
 Updated Readme.txt
+20230330091405 - Migration of AddBookTable
+20230330105213 - Migration of AddCategoryToDb.cs
+
+2023-04-13
+Updated category.js with following delete code from provided website code.
 
 
 

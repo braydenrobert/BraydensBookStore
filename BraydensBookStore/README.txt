@@ -218,6 +218,11 @@ Updated CoverTypeRepository and ICoverTypeRepository to match CategoryRepositori
 Changed category.js
 Updated ReadMe.txt
 
+18:16
+Updated CategoryController with code to fix errors not allowing create new category to work
+Updated Category.cs with code wasn't allowing category to properly work
+Changed all cshtml files in Shared to one directory for organization
+
 
 ----------------------ADD CODE BELOW WHEN MIGRATION FIXED-------------------------------
 using System;

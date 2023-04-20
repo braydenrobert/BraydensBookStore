@@ -30,8 +30,8 @@ namespace BraydensBookStore
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
 
             // //removed 'options => options.SignIn.RequireConfirmedAccount = true'
             services.AddDefaultIdentity<IdentityUser>() 
@@ -70,9 +70,9 @@ namespace BraydensBookStore
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
-                    name: "Customers",
-                    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}",
-                    defaults: new { area = "Customers" });
+                    name: "default",
+                    pattern: "{area=Customers}/{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapRazorPages();
             });
         }
     }

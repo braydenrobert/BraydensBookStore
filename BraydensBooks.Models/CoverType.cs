@@ -5,9 +5,9 @@ using System.Text;
 
 namespace BraydensBooks.Models
 {
-    public class CoverTypes
+    public class CoverType
     {
-        public int ID { get; set; }
+        public int Id { get; set; }
 
         [Required]
         [StringLength(50)]

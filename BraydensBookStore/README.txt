@@ -208,6 +208,16 @@ Added CoverType to UnitOfWork and IUnitofWork
 Added code to CoverTypeRepository & ICoverTypeRepository
 ****** Need to fix migration error ******
 
+2023-04-20
+14:07
+Updated ApplicationDbContext
+Updated ICategoryRepository with shortened code
+Updated CategoryRepository with shortened code  
+Updated IUnitOfWork.cs and UnitOfWork.cs with updated Category & CoverType configuration
+Updated CoverTypeRepository and ICoverTypeRepository to match CategoryRepositories code
+Changed category.js
+Updated ReadMe.txt
+
 
 ----------------------ADD CODE BELOW WHEN MIGRATION FIXED-------------------------------
 using System;

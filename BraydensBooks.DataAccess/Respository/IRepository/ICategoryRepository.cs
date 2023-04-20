@@ -8,7 +8,5 @@ namespace BraydensBooks.DataAccess.Respository.IRepository
     public interface ICategoryRepository : IRepository<Category>
     {
         void Update(Category category);
-
-        IEnumerable<Category> GetCategoriesByName(string name);
     }
 }

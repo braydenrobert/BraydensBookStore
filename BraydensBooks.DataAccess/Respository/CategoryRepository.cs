@@ -16,11 +16,6 @@ namespace BraydensBooks.DataAccess.Respository
             _db = db;
         }
 
-        public IEnumerable<Category> GetCategoriesByName(string name)
-        {
-            throw new NotImplementedException();
-        }
-
         public void Update(Category category)
         {
             // use .NET LINQ to retrieve the first or default category object,

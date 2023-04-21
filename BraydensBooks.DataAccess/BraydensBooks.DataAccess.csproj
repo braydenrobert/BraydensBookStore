@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20230421051739_AddingProcedures.cs" />
+    <Compile Remove="Migrations\20230421051739_AddingProcedures.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="_Layout.cshtml" />
   </ItemGroup>
 

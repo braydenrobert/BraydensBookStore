@@ -227,4 +227,15 @@ Changed all cshtml files in Shared to one directory for organization
 01:35
 ---FIXED COVERTYPE MIGRATION ERROR---
 
+01:50
+Added CoverType Controller duplicated from CategoryController
+Added CoverType Index and Upsert duplicated from Category Index/Upsert - Updated with code in relation to CoverType
+Updated _Layout.cshtml with Link to Cover Type link
+
+02:51
+Updated SP_CALL & ISP_Call.cs with working code (fixed errors)
+UnitOfWork missing some extra code fix
+SD.cs missing some code for procedures.
+
+
 

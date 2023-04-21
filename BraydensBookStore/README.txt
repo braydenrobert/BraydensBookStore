@@ -245,5 +245,13 @@ Added ProductRepository and IProductRepository.cs with copied code form Category
 Added Product.cs with provided code from teacher
 Updated ApplicationDbContext with Product.cs code to add to database
 
+14:41
+Added ProductVM.cs added with various code for ProductController.cs
+Added ProductController.cs with copied code & changed from CategoryController.cs
+Added Index.cshtml to Views/Product copied from Category index.cshtml
+Added Upsert.cshtml to Views/Product from teachers online notes
+Copied category.js and renamed it to product, changed URL(s) inside
+_Layout.cshtml added Product to dropdown menu
+
 
 

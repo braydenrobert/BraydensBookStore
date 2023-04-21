@@ -237,5 +237,13 @@ Updated SP_CALL & ISP_Call.cs with working code (fixed errors)
 UnitOfWork missing some extra code fix
 SD.cs missing some code for procedures.
 
+03:11
+Added addValidationToProduct migration
+Added addProductToDb migration
+Updated IUnitOfWork & UnitOfWork with Product relation code
+Added ProductRepository and IProductRepository.cs with copied code form CategoryRepository(Edited)
+Added Product.cs with provided code from teacher
+Updated ApplicationDbContext with Product.cs code to add to database
+
 
 

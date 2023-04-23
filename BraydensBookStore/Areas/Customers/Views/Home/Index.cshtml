@@ -16,7 +16,7 @@
                                 <p class="card-text text-decoration-line-through text-secondary">$ @product.ListPrice.ToString("0.00")</p>
                                 <p class="card-text text-danger"><strong>$@product.Price.ToString("0.00")</strong></p>
                             </div>
-                            <a href="@Url.Action("Details", new { id = product.Id })" class="btn btn-primary w-100">Details</a>
+                            <a href="@Url.Action("Details", new { id = product.Id })" class="btn btn-primary w-100 mt-3">Details</a>
                         </div>
                     </div>
                 </div>
@@ -29,3 +29,38 @@ else
 {
     <p>No products found.</p>
 }
+
+<style>
+    .card-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .card-subtitle {
+        font-size: 1rem;
+    }
+
+    .card-text {
+        font-size: 1rem;
+    }
+
+    .card-img-top {
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+        .btn-primary:hover {
+            background-color: #0069d9;
+            border-color: #0062cc;
+        }
+
+        .btn-primary:focus,
+        .btn-primary.focus {
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+        }
+</style>

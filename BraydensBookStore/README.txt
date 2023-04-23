@@ -1,3 +1,9 @@
+*************************************************
+**************   SDK VERSION IN   ***************
+**************    global.json     ***************
+************** NEEDS TO BE CHANGED **************
+*************************************************
+
 ------------
 -- Part 1 --
 ____________
@@ -286,14 +292,84 @@ Updated Customer Index page to display
 Index page has cleaner design for display of products
 Trying to fix product display, not grabbing data
 
+------------
+-- Part 4 --
+____________
+
+06:56
+Added Code to display products in Customer Index page
+Added all 3 Books for display
+Updated HomeController in Areas/Customers/Controllers with Index view code to display procusts
+Added Hover design to index page for products.
+Following code added to index page for sleeker design
 
 
+@model IEnumerable<BraydensBooks.Models.Product>
 
-*************************************************
-**************   SDK VERSION IN   ***************
-**************    global.json     ***************
-************** NEEDS TO BE CHANGED **************
-*************************************************
+@if (Model != null)
+{
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4 pb-3">
+            @foreach (var product in Model)
+            {
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <img src="@product.ImageUrl" class="card-img-top" alt="@product.Title">
+                        <div class="card-body">
+                            <h5 class="card-title">@product.Title</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">@product.Author</h6>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="card-text text-decoration-line-through text-secondary">$ @product.ListPrice.ToString("0.00")</p>
+                                <p class="card-text text-danger"><strong>$@product.Price.ToString("0.00")</strong></p>
+                            </div>
+                            <a href="@Url.Action("Details", new { id = product.Id })" class="btn btn-primary w-100 mt-3">Details</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+}
+else
+{
+    <p>No products found.</p>
+}
+
+<style>
+    .card-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .card-subtitle {
+        font-size: 1rem;
+    }
+
+    .card-text {
+        font-size: 1rem;
+    }
+
+    .card-img-top {
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+        .btn-primary:hover {
+            background-color: #0069d9;
+            border-color: #0062cc;
+        }
+
+        .btn-primary:focus,
+        .btn-primary.focus {
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+        }
+</style>
 
 
 

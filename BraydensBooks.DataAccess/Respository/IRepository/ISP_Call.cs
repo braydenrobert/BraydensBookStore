@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BraydensBooks.DataAccess.Respository.IRepository
 {
-    public interface ISP_Call :IDisposable
+    public interface ISP_Call : IDisposable
     {
         // e.g. first column of first row in the result set
         T Single<T>(string procedureName, DynamicParameters param = null);

@@ -1,5 +1,4 @@
-﻿
-using BraydensBookStore.DataAcccess.Data;
+﻿using BraydensBookStore.DataAcccess.Data;
 using BraydensBooks.DataAccess.Respository.IRepository;
 using Dapper;
 using Microsoft.Data.SqlClient;
@@ -7,8 +6,6 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using BraydensBooks.Utility;
 
 namespace BraydensBooks.DataAccess.Respository
@@ -34,7 +31,7 @@ namespace BraydensBooks.DataAccess.Respository
             using (SqlConnection sqlCon = new SqlConnection(ConnectionString))
             {
                 sqlCon.Open();
-                sqlCon.Execute(SD.Proc_CoverType_Create, param, commandType: System.Data.CommandType.StoredProcedure);
+                sqlCon.Execute(procedureName, param, commandType: System.Data.CommandType.StoredProcedure);
             }
         }
 

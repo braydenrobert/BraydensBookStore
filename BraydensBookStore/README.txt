@@ -270,7 +270,7 @@ Fixed <span asp-validation-for="Product.CoverTypeId" class="text-danger"></span>
 
 03:34
 Added Folder images/products
-
+Added images to images/products
 
 
 *************************************************

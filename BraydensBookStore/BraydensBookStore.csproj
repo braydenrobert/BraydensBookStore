@@ -21,8 +21,4 @@
     <ProjectReference Include="..\BraydensBooks.Utility\BraydensBooks.Utility.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\images\products\" />
-  </ItemGroup>
-
 </Project>

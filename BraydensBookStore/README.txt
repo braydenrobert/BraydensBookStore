@@ -271,6 +271,17 @@ Fixed <span asp-validation-for="Product.CoverTypeId" class="text-danger"></span>
 03:34
 Added Folder images/products
 
+06:14
+Added '#tblData td {
+    color: black;
+}' to make database text black in site.css
+Added Price to database
+Added Migration AddPriceToDb(20230423100824)
+Added Price to Product.cs
+Added Price code for Upsert to display price
+Added Price column to product.js
+
+
 
 
 *************************************************

@@ -84,6 +84,10 @@
     box-sizing: border-box
 }
 
+#tblData td {
+    color: black;
+}
+
 @media (prefers-reduced-motion:no-preference) {
     :root {
         scroll-behavior: smooth

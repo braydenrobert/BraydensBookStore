@@ -226,6 +226,9 @@ Changed all cshtml files in Shared to one directory for organization
 2023-04-21
 01:35
 ---FIXED COVERTYPE MIGRATION ERROR---
+Opened Package Manager Console and selected BraydensBooks.Database as default project
+Add-Migration AddCoverTypes
+Update-Database
 
 01:50
 Added CoverType Controller duplicated from CategoryController
@@ -238,8 +241,8 @@ UnitOfWork missing some extra code fix
 SD.cs missing some code for procedures.
 
 03:11
-Added addValidationToProduct migration
-Added addProductToDb migration
+Added addValidationToProduct migration(20230421060059)
+Added addProductToDb migration(20230421060009)
 Updated IUnitOfWork & UnitOfWork with Product relation code
 Added ProductRepository and IProductRepository.cs with copied code form CategoryRepository(Edited)
 Added Product.cs with provided code from teacher
@@ -252,6 +255,14 @@ Added Index.cshtml to Views/Product copied from Category index.cshtml
 Added Upsert.cshtml to Views/Product from teachers online notes
 Copied category.js and renamed it to product, changed URL(s) inside
 _Layout.cshtml added Product to dropdown menu
+
+2023-04-23
+02:45
+Added coverType.js to fix error for deletion and display when adding new Cover Type
+Updated SP_Call Execute command to actually work for grabbing ProcsForCoverTypes
+Added Migration AddStoredProcForCoverType(20230423063255)
+Changed SD.cs to have procs for storing to db
+Updated Index of Cover Type to include new coverType.js
 
 
 

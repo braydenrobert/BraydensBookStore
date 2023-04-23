@@ -5,7 +5,6 @@ Welcome to Brayden's Book Store! This project is an online bookstore where users
 ## Features
 - Browse book categories
 - Search for books by title, author, or category
-- View book details and reviews
 - Add books to cart and checkout securely
 - Create an account to save your information and order history
 

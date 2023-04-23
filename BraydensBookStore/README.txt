@@ -281,6 +281,11 @@ Added Price to Product.cs
 Added Price code for Upsert to display price
 Added Price column to product.js
 
+06:33
+Updated Customer Index page to display
+Index page has cleaner design for display of products
+Trying to fix product display, not grabbing data
+
 
 
 

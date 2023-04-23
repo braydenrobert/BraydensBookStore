@@ -1,7 +1,31 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@model IEnumerable<BraydensBooks.Models.Product>
 
-<div class="text-center">
-    <h1 class="display-4">Braydens BookStore</h1>
-</div>
+@if (Model != null)
+{
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4 pb-3">
+            @foreach (var product in Model)
+            {
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <img src="@product.ImageUrl" class="card-img-top" alt="@product.Title">
+                        <div class="card-body">
+                            <h5 class="card-title">@product.Title</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">@product.Author</h6>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="card-text text-decoration-line-through text-secondary">$ @product.ListPrice.ToString("0.00")</p>
+                                <p class="card-text text-danger"><strong>$@product.Price.ToString("0.00")</strong></p>
+                            </div>
+                            <a href="@Url.Action("Details", new { id = product.Id })" class="btn btn-primary w-100">Details</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+}
+else
+{
+    <p>No products found.</p>
+}

@@ -303,8 +303,14 @@ Updated HomeController in Areas/Customers/Controllers with Index view code to di
 Added Hover design to index page for products.
 Following code added to index page for sleeker design
 
+07:14 
+Updated boostrap/css code to give a better look when adding more products in Index.cshtml
+Forced _Layout.cshtml footer to be static to bottom of screen with the following
+'<footer class="border-top footer text-white-50 bg-primary fixed-bottom">'
+site.css was reverted from errors - added to Index.cshtml instead
 
-@model IEnumerable<BraydensBooks.Models.Product>
+
+model IEnumerable<BraydensBooks.Models.Product>
 
 @if (Model != null)
 {
@@ -330,35 +336,45 @@ Following code added to index page for sleeker design
         </div>
     </div>
 
-}
-else
-{
-    <p>No products found.</p>
-}
+    <style>
+        .card-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
 
-<style>
-    .card-title {
-        font-size: 1.2rem;
-        font-weight: bold;
-    }
+        .card-subtitle {
+            font-size: 1rem;
+        }
 
-    .card-subtitle {
-        font-size: 1rem;
-    }
+        .card-text {
+            font-size: 1rem;
+        }
 
-    .card-text {
-        font-size: 1rem;
-    }
+        .card-img-top {
+            height: 300px;
+            object-fit: cover;
+            transition: transform 0.5s;
+        }
 
-    .card-img-top {
-        height: 300px;
-        object-fit: cover;
-    }
+        .card-img-container {
+            height: 200px;
+            transition: height 0.5s ease;
+        }
 
-    .btn-primary {
-        background-color: #007bff;
-        border-color: #007bff;
-    }
+            .card-img-container:hover {
+                height: 400px;
+            }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        .card:hover {
+            box-shadow: 0 0 10px 2px rgba(0,0,0,0.5);
+            transform: translateY(-5px);
+            z-index: 1;
+        }
 
         .btn-primary:hover {
             background-color: #0069d9;
@@ -369,7 +385,37 @@ else
         .btn-primary.focus {
             box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
         }
-</style>
 
+        .card:hover .card-img-top {
+            transform: scale(1);
+        }
 
+        .card-body {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 10px;
+            transition: bottom 0.5s;
+        }
+
+        .card:hover .card-body {
+            bottom: -69%;
+        }
+
+        .scaled {
+            transition: transform 0.5s ease;
+        }
+
+            .scaled:hover {
+                transform: scale(1.1);
+            }
+
+    </style>
+}
+else
+{
+    <p>No products found.</p>
+}
 

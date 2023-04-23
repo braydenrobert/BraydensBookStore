@@ -264,6 +264,10 @@ Added Migration AddStoredProcForCoverType(20230423063255)
 Changed SD.cs to have procs for storing to db
 Updated Index of Cover Type to include new coverType.js
 
+3:18
+Fixed code with Product.CoverTypeId, Model.CoverTypeList for dropdownlist on Products to select from CoverTypes
+Fixed <span asp-validation-for="Product.CoverTypeId" class="text-danger"></span> for dropdown menu to select from CoverType
+
 
 
 *************************************************

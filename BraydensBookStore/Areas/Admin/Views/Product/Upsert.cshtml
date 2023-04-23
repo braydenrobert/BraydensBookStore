@@ -16,7 +16,7 @@
         <div class="col-12 border-bottom">
             <h2 class="text-primary">@title</h2>
         </div>
-        <div class="col-8 pt-4">s
+        <div class="col-8 pt-4">
             <div class="form-group row">
                 <div class="col-4">
                     <label asp-for="Product.Title"></label>
@@ -76,7 +76,7 @@
                     Cover Type
                 </div>
                 <div class="col-8">
-                    @Html.DropDownListFor(m => m.Product.CategoryId, Model.CategoryList, "-Select a Cover Type",
+                    @Html.DropDownListFor(m => m.Product.CoverTypeId, Model.CoverTypeList, "-Select a Cover Type",
                     new { @class = "form-control" })
                     <span asp-validation-for="Product.CoverTypeId" class="text-danger"></span>
                 </div>
